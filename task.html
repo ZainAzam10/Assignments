@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #parent{
+           margin: auto;
+           width:500px;
+           height:100px;
+           background-color: aquamarine;
+           border:1px solid red;
+       }  
+        
+        .abc {
+            width: 100px;
+            height: 50px;
+             flex-grow: 1 ; 
+            background-color: greenyellow;
+            margin: 6px;
+        }
+
+        .abc:nth-child(1) {
+            background: green;
+        }
+
+        .abc:nth-child(2) {
+        flex-grow: 2;
+            background: red;
+            width: 200px;
+        }
+
+        .abc:nth-child(3) {
+            background: brown;
+        }
+
+
+
+
+
+        #parent {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+
+            /*flex-direction: column-reverse; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="parent">
+        <div class="abc">doremon</div>
+        <div class="abc">nobita</div>
+        <div class="abc">beem</div>
+
+    </div>
+    <!-- If we have an absolute elomenet and want to bind it within its parent, 
+    set its parent's position to non-static, recommended> relative -->
+
+    <!-- <div id="parent">
+
+        <div id="child">
+
+        </div>
+
+    </div> -->
+
+
+    <!-- if position is static, set margin auto and width -->
+    <!-- if position is absolute, set margin auto and width, left 0 and right 0 -->
+
+    <!-- <div>
+        <img id="main-background" src="back.jpg" alt="">
+
+        <div>
+            <span>
+                START-UP
+            </span>
+
+
+            <div>
+                <h2>Easy way to launch your startup</h2>
+                <h2>Simple and powerful</h2>
+            </div>
+            
+            <div>
+                <input type="text">
+                <button>Get and access</button>
+            </div>
+
+            <div>
+                <small>Scroll down to explore</small>
+            </div>
+
+        </div>
+    </div> -->
+
+</body>
+
+</html>

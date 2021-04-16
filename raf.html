@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        header {
+            width: 74%;
+            margin: auto;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #header-top {
+            display: flex;
+            border-bottom: 1px solid #e6e6e6;
+        }
+
+        .i-block {
+            display: inline-block;
+        }
+
+        .blue-color {
+            color: #c3c9d5;
+        }
+
+        .item:nth-child(3) {
+            flex-grow: 1.5;
+            text-align: center;
+        }
+
+        .adjust-item {
+            position: relative;
+            left: 4%;
+        }
+
+        nav li {
+            display: inline-block;
+            width: 80px;
+            text-align: center;
+            height: 35px;
+        }
+
+        nav li:nth-child(1){
+            border-bottom:1px solid blue;
+        }
+
+        .menu-item {
+            margin-left: 4%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div id="header-top">
+            <div class="item">
+
+                <div class="i-block">
+                    <img src="1.JPG" />
+                </div>
+
+                <div class="i-block">
+                    <div class="blue-color">
+                        Call us Today
+                    </div>
+                    <div>
+                        458-362-1258
+                    </div>
+                </div>
+            </div>
+            <div class="item adjust-item">
+                <div class="i-block">
+                    <img src="1.JPG" />
+                </div>
+
+                <div class="i-block">
+                    <div class="blue-color">
+                        Email
+                    </div>
+                    <div>
+                        ouremail@gmail.com
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="logo.JPG" alt="">
+            </div>
+
+            <div class="item">
+                <div class="i-block">
+                    <img src="1.JPG" />
+                </div>
+
+                <div class="i-block">
+                    <div class="blue-color">
+                        Work Time
+                    </div>
+                    <div>
+                        09:00-17:00
+                    </div>
+                </div>
+            </div>
+            <div class="item adjust-item">
+                <div class="i-block">
+                    <img src="1.JPG" />
+                </div>
+
+                <div class="i-block">
+                    <div class="blue-color">
+                        Address
+                    </div>
+                    <div>
+                        547, San Diego
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <ol>
+                <li> <a>Home</a> </li>
+                <li class="menu-item"> <a>About</a> </li>
+                <li class="menu-item"> <a>Services</a> </li>
+                <li class="menu-item"> <a>Quotes</a> </li>
+                <li class="menu-item"> <a>Portfolio</a> </li>
+            </ol>
+        </nav>
+
+    </header>
+
+
+
+</body>
+
+</html>

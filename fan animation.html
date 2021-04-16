@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* #rabbit {
+            position: absolute;
+            right: 0;
+            transition: right 5s linear 0s, opacity 3s linear 0s;
+        } */
+
+        /* opacity ranges from 0 to 1  */
+
+        /* #rabbit:hover {
+            right: 800px;
+            opacity: 0;
+        } */
+
+
+        /* #parent:hover{
+            background-color: green;;
+        }
+
+        #parent{
+            width:100px;
+            height: 100px;
+            background-color: orange;
+        } */
+
+        @keyframes myAnimation {
+
+            from{
+                transform: rotate(0deg);
+            }
+
+            to{
+                transform: rotate(360deg);
+            }
+
+            /* 0% {
+                background-color: orange;
+            }
+
+            
+            9% {
+                background-color: yellow;
+            }
+
+
+
+            25% {
+                background-color: red;
+            }
+
+            50% {
+                background-color: purple;
+            }
+
+            75% {
+                background-color: pink;
+            }
+
+
+            100% {
+                background-color: blue;
+            } */
+
+            /* from{
+                background-color: orange;
+            }
+
+            to{
+                background-color: green;
+            } */
+
+
+        }
+
+        #parent {
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            animation: myAnimation 10s linear 0s;
+
+            /* transition: background-color 5s linear 0s, width 2s linear 0s; */
+        }
+
+        /* #parent:hover {
+            background-color: green;
+            width: 600px;
+        }
+
+        #myiMG {
+            width:500px;
+            transform: rotate(20deg) scale(0.5) ;
+            /* transition: transform 1s ease-in 0s, width 5s linear 0s; */
+        /* } */
+        /* #myiMG:hover{
+            transform: rotate(70deg);
+            width:600px;
+        } */
+
+        /* #secIMG{
+            width:400px;
+        }  */
+
+        #myFan{
+            animation: myAnimation 1s linear 0s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            left: 300px;
+            top: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <img id="myFan" src="image/air fan.jpg" alt="">
+
+    <!-- <div id="parent">
+
+    </div>
+
+    <img id="myiMG" src="biryani.webp" alt="">
+    <img id="secIMG" src="biryani.webp" alt=""> -->
+
+    <!-- Two types of animations -->
+    <!-- 1).Simple animations, transition -->
+    <!-- 1).Advance animations, animations -->
+
+    <!-- <img id="rabbit" src="FreshWeeklyCaribou-small.gif" alt=""> -->
+
+</body>
+
+</html>'

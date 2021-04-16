@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item:nth-child(1){
+            background-color: brown;
+            border: 3px solid white;
+            grid-area: area1
+
+        }
+        .item:nth-child(2){
+            background-color: chartreuse;
+            border: 3px solid white;
+            grid-area: area2
+
+        }
+        .item:nth-child(3){
+            background-color: crimson;
+            border: 3px solid white;
+            grid-area: area3
+
+        }
+        .item:nth-child(4){
+            background-color: darkorange;
+            border: 3px solid white;
+            grid-area: area4
+
+        }
+        .item:nth-child(5){
+            background: gold;
+            border: 3px solid white;
+            grid-area: area5
+
+
+        }
+        .item:nth-child(6){
+            background-color: green;
+            border: 3px solid white;
+            grid-area: area6
+
+        }
+        #parent{
+            display: grid;
+            grid-template: 
+            "area1 area1 area1 area1"
+            "area2 area3 area4 area4"
+            "area5 area5 area6 area6"
+        }
+        #parent{
+            height: 250px;
+            width: 250px;
+            margin: auto;
+            margin-top: 100 px;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+
+    </div>
+    
+</body>
+</html>

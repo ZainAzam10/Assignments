@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent {
+            display: flex;
+            width: auto;
+            height: 500px;
+        }
+
+        #first-half {
+            flex-grow:1;
+        }
+        #sec-half{
+            flex-grow:1;
+            
+        }
+        #photo{
+            height: 100%;
+            width: 100%;
+        }
+
+        .top-text {
+            position: absolute;
+            top: 36px;
+            left: 71px;
+            font-family: fantasy;
+        }
+
+        #ux {
+
+            margin: auto;
+    text-align: center;
+    position: absolute;
+    color: gold;
+    top: 214px;
+    left: 75px;
+    font-family: sans-serif;
+        }
+
+        #name {
+            margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 236px;
+    left: 79px;
+    font-size: 78px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+        }
+
+        #name1 {
+            margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 317px;
+    left: 79px;
+    font-size: 77px;
+    font-weight: bold;
+    font-family: sans-serif;
+        }
+
+        #butt {
+            margin-top: 408px;
+            margin-left: 80px;
+
+        }
+        #btn1{
+            background: gold;
+    border: none;
+    padding: 12px 26px;
+    color: white;
+        }
+        #btn2{
+            padding: 12px 26px;
+    border: none;
+    margin: -4px;
+        }
+        #photo{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div id="first-half">
+            <div class="top-text">Schmt.</div>
+            <div id="ux">UI/UX DESIGNER & DEVELOPER</div>
+            <div id="name">I'm John</div>
+            <div id="name1">Schmidt</div>
+            <div id="butt"><button id="btn1" type="button">More about me</button>
+                <button id="btn2" type="btun">Hire me</button>
+            </div>
+        </div>
+        <div id="sec-half">
+        <div><img src="image/snap.png" id="photo" alt="" ></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
